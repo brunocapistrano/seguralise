@@ -1,0 +1,68 @@
+body {
+    flex-direction: column;
+    margin: 30px;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logotipo {
+    width: 40px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    width: 270px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-family: 'Gilroy';
+}
+
+p {
+    font-size: 15px;
+    width: 250px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+}
+
+button {
+    background: #F2A30F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    width: 265px;
+    height: 40px;
+    
+    border: none;
+    border-radius: 103px;
+    
+    color: white;
+    font-size: 20px;
+    font-family: 'Gilroy';
+    font-weight:  800 ;
+}
+
+.lado-direito {
+    margin-top: 30px;
+    background: #0F71F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.patrocinadores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-patrocinadores {
+    margin-right: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 50px;
+}
