@@ -3,10 +3,10 @@
     flex-direction: column;
 }
 
-.logotipo {
+/* .logotipo {
     width: 60px;
     margin-bottom: 50px;
-}
+} */
 
 h1 {
     font-size: 77px;
@@ -18,7 +18,7 @@ h1 {
 
 p {
     font-size: 32px;
-    width: 500px;
+    width: 650px;
     font-family: 'Gilroy';
     font-weight: 300;
 }
